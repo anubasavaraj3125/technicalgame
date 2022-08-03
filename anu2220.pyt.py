@@ -4,7 +4,7 @@ def recur_fibo(n):
     else:
         return(recur_fibo(n-1)+recur_fibo(n-2))
     nterms=10
-    if nterms<=0:
+    if nterms<=1:
         print("Please enter a positive integer:")
     else:
         print("Fibonnaci sequence:")
